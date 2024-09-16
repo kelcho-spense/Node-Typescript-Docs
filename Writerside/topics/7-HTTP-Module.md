@@ -65,6 +65,7 @@ import * as http2 from 'http2';
 import * as fs from 'fs';
 
 // Load SSL certificates for secure connection
+// learn how to generate server-key.pem & server-cert.pem from 7.1 Install OpenSSL on Windows
 const options = {
   key: fs.readFileSync('server-key.pem'),
   cert: fs.readFileSync('server-cert.pem')
