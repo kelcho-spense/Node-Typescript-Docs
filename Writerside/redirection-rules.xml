@@ -22,4 +22,8 @@
         <description>Created after removal of "11.4 MSSQL" from Node.js</description>
         <accepts>11-4.html</accepts>
     </rule>
+    <rule id="1a75fdf5">
+        <description>Created after removal of "Node.js Curriculum" from Node.js</description>
+        <accepts>starter.html</accepts>
+    </rule>
 </rules>

@@ -4,9 +4,8 @@
 
 <instance-profile id="in"
                  name="Node.js"
-                 start-page="starter.md">
+                 start-page="1-Introduction.md">
 
-    <toc-element topic="starter.md"/>
     <toc-element topic="1-Introduction.md"/>
     <toc-element topic="2-Getting-Started.md"/>
     <toc-element topic="3-Node-Package-managers.md">
