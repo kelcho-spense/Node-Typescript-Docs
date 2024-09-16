@@ -12,7 +12,7 @@ Key features of Node.js:
 - Lightweight and efficient
 - Uses the same language (JavaScript) on both frontend and backend
 
-```typescript
+```javascript
 // A simple Node.js server in TypeScript
 
 import * as http from 'http';
@@ -42,7 +42,7 @@ Node.js is widely adopted for a variety of reasons, making it one of the most po
 
 5. **Scalability**: Node.js is designed with scalability in mind, allowing developers to build applications that handle numerous requests efficiently.
 
-```typescript
+```javascript
 // Demonstrating non-blocking behavior in Node.js
 import * as fs from 'fs';
 
@@ -70,7 +70,7 @@ Node.js can be used for a wide range of applications, making it a versatile tool
 
 5. **Serverless Functions**: Many cloud providers offer serverless computing using Node.js as the runtime. This allows you to write lightweight functions that automatically scale and handle HTTP requests.
 
-```typescript
+```javascript
 // Simple REST API with Node.js and Express in TypeScript
 
 import express from 'express';

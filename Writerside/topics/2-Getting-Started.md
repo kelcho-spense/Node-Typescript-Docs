@@ -142,7 +142,7 @@ touch index.ts
 
 Inside this file, you can write your first Node.js code using TypeScript:
 
-```typescript
+```javascript
 const message: string = 'Hello, TypeScript with Node.js!';
 console.log(message);
 ```

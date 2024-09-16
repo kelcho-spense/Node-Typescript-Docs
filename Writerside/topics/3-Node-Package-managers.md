@@ -96,6 +96,50 @@ This command installs `express`, a web framework, and updates `package.json` wit
 - **Performance**: It is often faster than both NPM and Yarn, especially for monorepo projects.
 - **Strict Dependency Management**: PnPm ensures that the dependency tree is more predictable, catching issues like missing or incompatible peer dependencies early on.
 
+### **Installing PNPM**
+
+PNPM is a fast, disk space-efficient package manager for Node.js. More information on [https://pnpm.io/installation](https://pnpm.io/installation)
+
+1. **Install PNPM**:
+  - Using Powershell:
+    ```bash
+    Invoke-WebRequest https://get.pnpm.io/install.ps1 -UseBasicParsing | Invoke-Expression
+    ```
+  - On POSIX systems, you can use curl or wget:
+    ```bash
+    curl -fsSL https://get.pnpm.io/install.sh | sh -
+    ```
+    If you don't have curl installed, you would like to use wget:
+    ```bash
+    wget -qO- https://get.pnpm.io/install.sh | sh -
+    ```
+
+2. **Verify Installation**: After the installation completes, verify it by typing:
+   ```bash
+   pnpm -v
+   ```
+   This should display the installed PNPM version.
+3. **Updating pnpm** : To update pnpm, run the `self-update` command:
+   ```Bash
+   pnpm self-update
+   ```
+
+To install Node.js with PNPM on your system, follow the steps below:
+
+## **Installing Node.js**
+
+Node.js is a JavaScript runtime that allows you to run JavaScript code on your server or local machine. Here's how to install it:
+
+### use
+- Install and use the specified version of Node.js. Install the LTS version of Node.js:
+```Bash
+pnpm env use --global lts
+```
+- Or if you prefer a specific Install Node.js v16:
+```Bash
+pnpm env use --global 16
+```
+
 ##### Common PnPm Commands:
 
 - Install a package locally:
@@ -178,7 +222,25 @@ This command adds `express` as a dependency to your project using Yarn.
 
 ---
 
-### Summary
+### Comparison
+
+**Common Commands**
+
+| **COMMAND**                        | **NPM**                                         | **PNPM**                                      | **YARN**                                      |
+|-------------------------------------|-------------------------------------------------|----------------------------------------------|------------------------------------------------|
+| **init**                            | `npm init`                                      | `pnpm init`                                   | `yarn init`                                    |
+| **install from package.json**       | `npm install`                                   | `pnpm install`                                | `yarn`                                         |
+| **add package**                     | `npm install <package> [--location=global]`     | `pnpm add <package> [--global]`               | `yarn add <package>`                           |
+| **add package as devDependencies**  | `npm install <package> --save-dev`              | `pnpm add <package> --save-dev`               | `yarn add <package> --dev`                     |
+| **remove package**                  | `npm uninstall <package> [--location=global]`   | `pnpm uninstall <package> [--global]`         | `yarn [global] remove <package>`               |
+| **remove package as devDependencies** | `npm uninstall <package> --save-dev`            | `pnpm uninstall <package> --save-dev`         | `yarn remove <package> --dev`                  |
+| **audit vulnerable dependencies**   | `npm list --depth 0 [--location=global]`        | `pnpm list --depth 0 [--global]`              | `yarn [global] list --depth 0`                 |
+| **Run**                             | `npm run <script-name>`                         | `pnpm run <script-name>`                      | `yarn run <script-name>`                      |
+| **build**                           | `npm build`                                     | `pnpm build`                                  | `yarn build`                                   |
+| **test**                            | `npm test`                                      | `pnpm test`                                   | `yarn test`                                    |
+
+
+**Features**
 
 | Feature         | NPM                           | PnPm                          | Yarn                          |
 |-----------------|-------------------------------|-------------------------------|-------------------------------|

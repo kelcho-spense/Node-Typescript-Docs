@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="7a363d30">
+        <description>Created after removal of "11.1 MySQL" from Node.js</description>
+        <accepts>11-1-MySQL.html</accepts>
+    </rule>
+    <rule id="345c4e91">
+        <description>Created after removal of "11.2 PostgreSQL" from Node.js</description>
+        <accepts>11-2-PostgreSQL.html</accepts>
+    </rule>
+    <rule id="7f4d7969">
+        <description>Created after removal of "11.3 MongoDB" from Node.js</description>
+        <accepts>11-3-MongoDB.html</accepts>
+    </rule>
+    <rule id="2b2f8172">
+        <description>Created after removal of "11.4 MSSQL" from Node.js</description>
+        <accepts>11-4.html</accepts>
+    </rule>
+</rules>

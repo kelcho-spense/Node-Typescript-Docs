@@ -9,5 +9,25 @@
     <toc-element topic="starter.md"/>
     <toc-element topic="1-Introduction.md"/>
     <toc-element topic="2-Getting-Started.md"/>
-    <toc-element topic="3-Node-Package-managers.md"/>
+    <toc-element topic="3-Node-Package-managers.md">
+        <toc-element topic="3-1-PnPm-Cheatsheet.md"/>
+    </toc-element>
+    <toc-element topic="Typescript-Configuration.md"/>
+    <toc-element topic="4-Modules.md"/>
+    <toc-element topic="6-Node-js-Globals.md"/>
+    <toc-element topic="7-HTTP-Module.md">
+        <toc-element topic="Install-OpenSSL-on-Windows.md"/>
+    </toc-element>
+    <toc-element topic="8-File-System-Module.md"/>
+    <toc-element topic="9-Node-js-Events.md"/>
+    <toc-element topic="10-Node-js-Errors.md"/>
+    <toc-element topic="11-Node-intergration-with-Databases.md">
+        <toc-element topic="Node-js-Database-Integration-Approaches.md">
+            <toc-element topic="11-1-1-Using-Query-Builders-and-Raw-Queries.md"/>
+            <toc-element topic="11-2-Using-ORM-Object-Relational-Mapping.md"/>
+        </toc-element>
+    </toc-element>
+    <toc-element topic="12-Multithreading-with-worker-threads.md">
+        <toc-element topic="Implementing-worker-threads.md"/>
+    </toc-element>
 </instance-profile>
