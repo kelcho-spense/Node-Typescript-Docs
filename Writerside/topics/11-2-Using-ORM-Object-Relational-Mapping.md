@@ -1,4 +1,4 @@
-# 11.2 Using ORM (Object-Relational Mapping)
+# 11.1.2 Using ORM (Object-Relational Mapping)
 
 ORMs abstract database interactions, allowing developers to work with objects and models instead of raw SQL queries. This approach is particularly useful for those who want to avoid writing raw SQL and focus on the business logic.
 

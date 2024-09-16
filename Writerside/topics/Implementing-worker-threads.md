@@ -1,4 +1,4 @@
-# Implementing worker threads
+# 12.1 Implementing worker threads
 
 To utilize worker threads in Node.js using TypeScript and TSX, follow the steps below.
 
