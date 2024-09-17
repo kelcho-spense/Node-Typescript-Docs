@@ -22,8 +22,10 @@
     <toc-element topic="10-Node-js-Errors.md"/>
     <toc-element topic="11-Node-intergration-with-Databases.md">
         <toc-element topic="Node-js-Database-Integration-Approaches.md">
-            <toc-element topic="11-1-1-Using-Query-Builders-and-Raw-Queries.md"/>
-            <toc-element topic="11-2-Using-ORM-Object-Relational-Mapping.md"/>
+            <toc-element topic="MSSQL-Server.md"/>
+            <toc-element topic="POSTGRESQL.md"/>
+            <toc-element topic="MYSQL.md"/>
+            <toc-element topic="MONGODB.md"/>
         </toc-element>
     </toc-element>
     <toc-element topic="12-Multithreading-with-worker-threads.md">

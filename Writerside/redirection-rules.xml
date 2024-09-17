@@ -26,4 +26,12 @@
         <description>Created after removal of "Node.js Curriculum" from Node.js</description>
         <accepts>starter.html</accepts>
     </rule>
+    <rule id="7ff6b30b">
+        <description>Created after removal of "11.1.2 Using ORM (Object-Relational Mapping)" from Node.js</description>
+        <accepts>11-2-Using-ORM-Object-Relational-Mapping.html</accepts>
+    </rule>
+    <rule id="286bffe3">
+        <description>Created after removal of "11.1.1 Using Query Builders and Raw Queries" from Node.js</description>
+        <accepts>11-1-1-Using-Query-Builders-and-Raw-Queries.html</accepts>
+    </rule>
 </rules>
